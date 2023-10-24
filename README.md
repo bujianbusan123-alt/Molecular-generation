@@ -15,6 +15,6 @@ conda create --name version python=3.8
 # Generative model GraphInvent
 git clone https://github.com/MolecularAI/GraphINVENT.git
 # Machine learning methods
-Classification models were trained by Scikit-learn except XGBoost
-the features for machine learning models are obatined by python get_functional_group_features.py,
+Classification models were trained by Scikit-learn except XGBoost<br />
+the features for machine learning models are obatined by python get_functional_group_features.py,<br />
 you can also define some important physical descriptors on the bulk and interface.
