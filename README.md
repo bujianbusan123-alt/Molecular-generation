@@ -26,6 +26,8 @@ conda create --name version python=3.8
 2. pretraining and training the generative model using collected dataset, <br />
 3. generated plenty of novel molecules, <br />
 4. filtering the invalid and repeated molecules using scripts.
+# MD simulations
+MD engine GROMACS 2020 and further optimized OPLS-AA force field are used for calculating Li<sup>+</sup> diffusion coefficient.
 # Machine learning methods
 Classification models were trained by Scikit-learn except XGBoost,<br />
 the features for machine learning models are obatined by python get_functional_group_features.py,<br />
