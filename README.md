@@ -2,13 +2,13 @@
 Artificial Intelligence-Assisted Electrolyte Design to Improve Li<sup>+</sup> Diffusion<br />
 <img decoding="async" src="procedure.bmp" width="60%">
 ## Introduction
-The problem of electrolyte freezing and power loss on lithium batteries under low-temperature conditions requires immediate attention, especially applications to high altitude, <br />
-high latitude regions and aerospace have been limited. Enhancing the Li<sup>+</sup> diffusion coefficient represents a crucial direction for improvement. However, <br />
-improving Li<sup>+</sup> diffusion coefficient in existed electrolytes has proven to be challenging, exploring new solvents or additives in electrolyte may have great potential. <br />
-In this study, we present a novel strategy that utilizes advanced techniques to design and find five novel molecules as additives with high Li<sup>+</sup> diffusion coefficient. <br />
-Our methodology involves two rounds of Molecular generation (MG) and Molecular dynamics (MD), and three rounds of Machine learning (ML), resulting in the highest Li<sup>+</sup> diffusion <br />
+The problem of electrolyte freezing and power loss on lithium batteries under low-temperature conditions requires immediate attention, especially applications to high altitude,
+high latitude regions and aerospace have been limited. Enhancing the Li<sup>+</sup> diffusion coefficient represents a crucial direction for improvement. However,
+improving Li<sup>+</sup> diffusion coefficient in existed electrolytes has proven to be challenging, exploring new solvents or additives in electrolyte may have great potential. 
+In this study, we present a novel strategy that utilizes advanced techniques to design and find five novel molecules as additives with high Li<sup>+</sup> diffusion coefficient. 
+Our methodology involves two rounds of Molecular generation (MG) and Molecular dynamics (MD), and three rounds of Machine learning (ML), resulting in the highest Li<sup>+</sup> diffusion 
 coefficient of the generated additive being 3.96 times that of the benchmark system (1.72×10<sup>-11</sup> m/s<sup>2</sup>). These findings are of great significance in improving Li<sup>+</sup> 
-diffusion coefficient in practical applications and addressing this persistent issue. Furthermore, these strategies and results provide valuable insights for further investigation into other<br />
+diffusion coefficient in practical applications and addressing this persistent issue. Furthermore, these strategies and results provide valuable insights for further investigation into other
 challenges of lithium batteries. 
 ## Dependencies
 rdkit==2022.03.3<br />
@@ -32,7 +32,7 @@ you can also define some important physical descriptors on the bulk and interfac
 # Synthesizable analysis
 ## SA
 A heuristic estimate of how hard (10) or how easy (1). it is to synthesize a given molecule. SA score is based on a combination of the molecule’s fragments contributions. <br />
-And SA score threshold change from 6.0 to -4.5, SA score would yield similar results as SYBA, here, we set the threshold of SA score 4.5.
+And SA score threshold change from 6.0 to -4.5, SA score would yield similar results as SYBA, here, we set the threshold of SA score 4.5. SA was assembled in MOSE https://github.com/molecularsets/moses
 ## SYBA
 SYBA is a fragment-based method for dividing the organic compounds into easy-synthesize (ES) or hard-to-synthesize (HS).<br />
 It is based on their frequencies in the dataset of ES and HS. It is based on a Bernoulli naïve Bayes classifier that is used to assign SYBA score contributions to individual<br /> 
