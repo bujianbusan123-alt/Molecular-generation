@@ -1,7 +1,7 @@
 # Molecular-generation
 Artificial Intelligence-Assisted Electrolyte Design to Improve Li+ Diffusion
 ## Introduction
-The problem of electrolyte freezing and power loss on lithium batteries under low-temperature conditions requires immediate attention, especially applications to high altitude, high latitude regions and aerospace have been limited. Enhancing the Li+ diffusion coefficient represents a crucial direction for improvement. However, improving Li+ diffusion coefficient in existed electrolytes has proven to be challenging, exploring new solvents or additives in electrolyte may have great potential. In this study, we present a novel strategy that utilizes advanced techniques to design and find five novel molecules as additives with high Li+ diffusion coefficient. Our methodology involves two rounds of Molecular generation (MG) and Molecular dynamics (MD), and three rounds of Machine learning (ML), resulting in the highest Li+ diffusion coefficient of the generated additive being 3.96 times that of the benchmark system (1.72×10-11 m/s2). These findings are of great significance in improving Li+ diffusion coefficient in practical applications and addressing this persistent issue. Furthermore, these strategies and results provide valuable insights for further investigation into other challenges of lithium batteries.
+The problem of electrolyte freezing and power loss on lithium batteries under low-temperature conditions requires immediate attention, especially applications to high altitude, high latitude regions and aerospace have been limited. Enhancing the Li+ diffusion coefficient represents a crucial direction for improvement. However, improving Li+ diffusion coefficient in existed electrolytes has proven to be challenging, exploring new solvents or additives in electrolyte may have great potential. In this study, we present a novel strategy that utilizes advanced techniques to design and find five novel molecules as additives with high Li+ diffusion coefficient. Our methodology involves two rounds of Molecular generation (MG) and Molecular dynamics (MD), and three rounds of Machine learning (ML), resulting in the highest Li+ diffusion coefficient of the generated additive being 3.96 times that of the benchmark system (1.72×10<sup>-11</sup> m/s<sup>2</sup>). These findings are of great significance in improving Li+ diffusion coefficient in practical applications and addressing this persistent issue. Furthermore, these strategies and results provide valuable insights for further investigation into other challenges of lithium batteries. 
 ## Dependencies
 rdkit==2022.03.3<br />
 scipy==1.8.0<br />
@@ -15,4 +15,4 @@ conda create --name version python=3.8
 # Generative model GraphInvent
 git clone https://github.com/MolecularAI/GraphINVENT.git
 # Machine learning methods
-Classification models were using Scikit-learn except XGBoost
+Classification models were trained by Scikit-learn except XGBoost
