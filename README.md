@@ -18,6 +18,6 @@ conda create --name version python=3.8
 3. generated plenty of novel molecules, <br />
 4. filtering the invalid and repeated molecules using scripts.
 # Machine learning methods
-Classification models were trained by Scikit-learn except XGBoost<br />
+Classification models were trained by Scikit-learn except XGBoost,<br />
 the features for machine learning models are obatined by python get_functional_group_features.py,<br />
 you can also define some important physical descriptors on the bulk and interface.
