@@ -1,5 +1,5 @@
 # Molecular-generation
-Artificial Intelligence-Assisted Electrolyte Design to Improve Li<sup>+</sup> Diffusion
+Artificial Intelligence-Assisted Electrolyte Design to Improve Li<sup>+</sup> Diffusion Coefficient
 <img decoding="async" src="procedure.bmp" width="60%"><br />
 ## Introduction
 The problem of electrolyte freezing and power loss on lithium batteries under low-temperature conditions requires immediate attention, especially applications to high altitude,
