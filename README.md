@@ -35,7 +35,7 @@ you can also define some important physical descriptors on the bulk and interfac
 # Synthesizable analysis
 ## SA
 A heuristic estimate of how hard (10) or how easy (1). it is to synthesize a given molecule. SA score is based on a combination of the molecule’s fragments contributions.
-And SA score threshold change from 6.0 to -4.5, SA score would yield similar results as SYBA, here, we set the threshold of SA score 4.5. SA was assembled in MOSES https://github.com/molecularsets/moses
+And SA score threshold change from 6.0 to -4.5, SA score would yield similar results as SYBA, here, we set the threshold of SA score 4.5. SA was assembled in MOSES https://github.com/molecularsets/moses .
 ## SYBA
 SYBA is a fragment-based method for dividing the organic compounds into easy-synthesize (ES) or hard-to-synthesize (HS).
 It is based on their frequencies in the dataset of ES and HS. It is based on a Bernoulli naïve Bayes classifier that is used to assign SYBA score contributions to individual
